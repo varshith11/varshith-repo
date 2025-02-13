@@ -14,7 +14,7 @@ sys_prompt = """You are a helpful AI Tutor for Data Science.
 
 gemini_model = ai.GenerativeModel(model_name="models/gemini-1.5-pro", system_instruction=sys_prompt)
 
-st.title("Data Science/AI TUTOR")
+st.title("Data Science AI")
 
 user_input = st.text_area(label="Enter your query/issue", placeholder="Explain the concept of for loops")
 
